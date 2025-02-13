@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=https://sap.github.io/ui5-tooling/schema/ui5.yaml.json
+
+specVersion: "3.1"
+metadata:
+  name: br.com.sinosbyte.zui5.mainapp
+type: application
+builder:
+  resources:
+    excludes:
+      - /test/**
+      - /localService/**
+  customTasks:
+    - name: deploy-to-abap
+      afterTask: generateCachebusterInfo
+      configuration:
+        target:
+          url: https://ndc-srvhana.opus-idc.com.br:8100
+          client: '250'
+        app:
+          name: ZUI5_DEMOROTAS
+          package: ZMVD_PROJETO_ROTAS
+          transport: S4HK903829
+        exclude:
+          - /test/

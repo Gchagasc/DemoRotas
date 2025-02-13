@@ -1,0 +1,53 @@
+<mvc:View controllerName="br.com.sinosbyte.zui5.rota.controller.RotaMaps"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns:smartList="sap.ui.comp.smartlist"
+    xmlns:core="sap.ui.core"
+	xmlns:l="sap.ui.layout"
+    xmlns="sap.m"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+    <Page id="page" showHeader="false">
+        <l:FixFlex id="layFlex" class="fixFlexHorizontal" vertical="false">
+			<l:fixContent>
+				<VBox id="menuList">	
+					<List
+						id="list"
+						mode="SingleSelectMaster"
+						headerText="Locais"
+						selectionChange="onSelectionChange"
+						noDataText="Sem mais visitas"
+						items="{
+							path: '/Rota'
+						}">
+						<items>
+							<StandardListItem id='locais'
+								title="{Nome}"
+								description="{Endereco} - {Cidade} - {Bairro} - {Estado}"
+								iconInset="false"
+								infoStateInverted="true" />
+						</items>
+					</List>					
+					<Toolbar id='tlb'>
+						<!-- <ToolbarSpacer id="tlbs"/> -->
+						<Button text="Visita Realizada" id="btnTes" press="onVisitaRealizada" type="Accept" width="100%"/>
+						<!-- <Button text="Reject" press="onPress" type="Reject"/> -->
+						<!-- <Button icon="sap-icon://overflow" press="onOpen" visible="{range>/isPhoneOrTablet}"/> -->
+					</Toolbar>
+				</VBox>		
+			</l:fixContent>
+			<l:flexContent>
+			    <core:HTML id="htmlContent" afterRendering="onRenderMap" />
+				<!-- <gmaps:Map id="gmap" height="1000px" zoom="12" 
+					apiKey="AIzaSyDIj6wYUzW6T-b6DXpvYVulG4UARY3i-X4">							 
+					<gmaps:directions>
+						<gmaps:Directions id="rota1" 
+										startAddress="{directionsModel>/Start/Nome} - {directionsModel>/Start/Cidade}"  
+										endAddress="{directionsModel>/End/Nome} - {directionsModel>/End/Cidade} " waypoints="{/Rota}" optimizeWaypoints="true" >
+							<gmaps:Waypoint id="point" location="{Nome} - {Cidade}" stopover="true"/>
+
+						</gmaps:Directions>
+					</gmaps:directions>
+				</gmaps:Map>    -->
+			</l:flexContent>
+		</l:FixFlex>	
+    </Page>
+</mvc:View>

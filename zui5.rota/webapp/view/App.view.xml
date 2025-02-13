@@ -1,0 +1,7 @@
+<mvc:View controllerName="br.com.sinosbyte.zui5.rota.controller.App"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <App id="app">
+    </App>
+</mvc:View>

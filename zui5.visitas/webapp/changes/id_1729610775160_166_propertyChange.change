@@ -1,0 +1,41 @@
+{
+    "fileName": "id_1729610775160_166_propertyChange",
+    "fileType": "change",
+    "changeType": "propertyChange",
+    "moduleName": "",
+    "reference": "br.com.sinosbyte.zui5.visitas",
+    "packageName": "",
+    "content": {
+        "property": "includeItemInSelection",
+        "newValue": true
+    },
+    "selector": {
+        "id": "br.com.sinosbyte.zui5.visitas::sap.suite.ui.generic.template.ListReport.view.ListReport::Visitas--responsiveTable",
+        "idIsLocal": false,
+        "type": "sap.m.Table"
+    },
+    "layer": "CUSTOMER_BASE",
+    "texts": {},
+    "namespace": "apps/br.com.sinosbyte.zui5.visitas/changes/",
+    "projectId": "",
+    "creation": 1729610775160,
+    "originalLanguage": "",
+    "support": {
+        "generator": "changeUtils: SAPFioriTools",
+        "service": "",
+        "user": "",
+        "sapui5Version": "1.114.0",
+        "sourceChangeFileName": "",
+        "compositeCommand": ""
+    },
+    "oDataInformation": {},
+    "dependentSelector": {},
+    "validAppVersions": {
+        "from": "0.0.1",
+        "to": "0.0.1",
+        "creation": "0.0.1"
+    },
+    "jsOnly": false,
+    "variantReference": "",
+    "appDescriptorChange": false
+}

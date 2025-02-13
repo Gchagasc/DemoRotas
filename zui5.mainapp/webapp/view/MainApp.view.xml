@@ -1,0 +1,49 @@
+<mvc:View controllerName="br.com.sinosbyte.zui5.mainapp.controller.MainApp"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"  xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1"
+    xmlns="sap.m" xmlns:core="sap.ui.core">
+    <Page>
+        <content>
+            <FlexBox
+                alignContent="Center"
+                alignItems="Start"
+                justifyContent="Center"
+                class="customSapMFlexBox"
+            >
+                <GenericTile
+                    header="Locais"
+                    subheader="Gerenciamento de Locais"
+                    press="pressTile"
+                    app:route="locais"
+                >
+                    <TileContent>
+                        <ImageContent src="sap-icon://locate-me" />
+                    </TileContent>
+                </GenericTile>
+                <GenericTile
+                    header="Visitas"
+                    subheader="Visitas em Aberto"
+                    press="pressTile"
+                    app:route="visitas"
+                >
+                    <TileContent>
+                        <ImageContent src="sap-icon://visits" />
+                    </TileContent>
+                </GenericTile>
+            </FlexBox>
+            <!-- <IconTabBar selectedKey="locais" stretchContentHeight="true">
+                <items>
+                    <IconTabFilter text="Locais" id="filter1">
+                        <content>
+                            <core:ComponentContainer height="100%" name="locais"/>
+                        </content>
+                    </IconTabFilter>
+                    <IconTabFilter text="Visitas" id="filter2">
+                        <content>
+                            <core:ComponentContainer height="100%" name="visitas"/>
+                        </content>
+                    </IconTabFilter>
+                </items>
+            </IconTabBar> -->
+        </content>
+    </Page>
+</mvc:View>

@@ -1,0 +1,364 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Start zui5.locais",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/zui5.locais",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--open",
+                "test/flpSandbox.html#brcomsinosbytezui5locais-tile"
+            ],
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart",
+            "outputCapture": "std",
+            "env": {
+                "DEBUG": "--inspect",
+                "FIORI_TOOLS_URL_PARAMS": "sap-client=250&sap-ui-xx-viewCache=false"
+            }
+        },
+        {
+            "name": "Start zui5.locais Local",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/zui5.locais",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--config",
+                "./ui5-local.yaml",
+                "--open",
+                "test/flpSandbox.html#brcomsinosbytezui5locais-tile"
+            ],
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart",
+            "outputCapture": "std",
+            "env": {
+                "FIORI_TOOLS_URL_PARAMS": "sap-client=250&sap-ui-xx-viewCache=false"
+            }
+        },
+        {
+            "name": "Start zui5.locais Mock",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/zui5.locais",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--config",
+                "./ui5-mock.yaml",
+                "--open",
+                "test/flpSandbox.html#brcomsinosbytezui5locais-tile"
+            ],
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart",
+            "outputCapture": "std",
+            "env": {
+                "FIORI_TOOLS_URL_PARAMS": "sap-client=250&sap-ui-xx-viewCache=false"
+            }
+        },
+        {
+            "name": "Start zui5.locais2",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/zui5.locais2",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--open",
+                "test/flpSandbox.html#brcomsinosbytezui5locais2-tile"
+            ],
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart",
+            "outputCapture": "std",
+            "env": {
+                "DEBUG": "--inspect",
+                "FIORI_TOOLS_URL_PARAMS": "sap-client=250&sap-ui-xx-viewCache=false"
+            }
+        },
+        {
+            "name": "Start zui5.locais2 Local",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/zui5.locais2",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--config",
+                "./ui5-local.yaml",
+                "--open",
+                "test/flpSandbox.html#brcomsinosbytezui5locais2-tile"
+            ],
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart",
+            "outputCapture": "std",
+            "env": {
+                "FIORI_TOOLS_URL_PARAMS": "sap-client=250&sap-ui-xx-viewCache=false"
+            }
+        },
+        {
+            "name": "Start zui5.locais2 Mock",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/zui5.locais2",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--config",
+                "./ui5-mock.yaml",
+                "--open",
+                "test/flpSandbox.html#brcomsinosbytezui5locais2-tile"
+            ],
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart",
+            "outputCapture": "std",
+            "env": {
+                "FIORI_TOOLS_URL_PARAMS": "sap-client=250&sap-ui-xx-viewCache=false"
+            }
+        },
+        {
+            "name": "Start zui5.visitas",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/zui5.visitas",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--open",
+                "test/flpSandbox.html#brcomsinosbytezui5visitas-tile"
+            ],
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart",
+            "outputCapture": "std",
+            "env": {
+                "DEBUG": "--inspect",
+                "FIORI_TOOLS_URL_PARAMS": "sap-client=250&sap-ui-xx-viewCache=false"
+            }
+        },
+        {
+            "name": "Start zui5.visitas Local",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/zui5.visitas",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--config",
+                "./ui5-local.yaml",
+                "--open",
+                "test/flpSandbox.html#brcomsinosbytezui5visitas-tile"
+            ],
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart",
+            "outputCapture": "std",
+            "env": {
+                "FIORI_TOOLS_URL_PARAMS": "sap-client=250&sap-ui-xx-viewCache=false"
+            }
+        },
+        {
+            "name": "Start zui5.visitas Mock",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/zui5.visitas",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--config",
+                "./ui5-mock.yaml",
+                "--open",
+                "test/flpSandbox.html#brcomsinosbytezui5visitas-tile"
+            ],
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart",
+            "outputCapture": "std",
+            "env": {
+                "FIORI_TOOLS_URL_PARAMS": "sap-client=250&sap-ui-xx-viewCache=false"
+            }
+        },
+        {
+            "name": "Start zui5.mainapp",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/zui5.mainapp",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--open",
+                "test/flpSandbox.html#brcomsinosbytezui5mainapp-display"
+            ],
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart",
+            "outputCapture": "std",
+            "env": {
+                "DEBUG": "--inspect",
+                "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false"
+            }
+        },
+        {
+            "name": "Start zui5.mainapp Local",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/zui5.mainapp",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--config",
+                "./ui5-local.yaml",
+                "--open",
+                "test/flpSandbox.html#brcomsinosbytezui5mainapp-display"
+            ],
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart",
+            "outputCapture": "std",
+            "env": {
+                "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false"
+            }
+        },
+        {
+            "name": "Start zui5.rota",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/zui5.rota",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--open",
+                "test/flpSandbox.html#brcomsinosbytezui5rota-display"
+            ],
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart",
+            "outputCapture": "std",
+            "env": {
+                "DEBUG": "--inspect",
+                "FIORI_TOOLS_URL_PARAMS": "sap-client=250&sap-ui-xx-viewCache=false"
+            }
+        },
+        {
+            "name": "Start zui5.rota Local",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/zui5.rota",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--config",
+                "./ui5-local.yaml",
+                "--open",
+                "test/flpSandbox.html#brcomsinosbytezui5rota-display"
+            ],
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart",
+            "outputCapture": "std",
+            "env": {
+                "FIORI_TOOLS_URL_PARAMS": "sap-client=250&sap-ui-xx-viewCache=false"
+            }
+        },
+        {
+            "name": "Start zui5.rota Mock",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/zui5.rota",
+            "runtimeExecutable": "npx",
+            "windows": {
+                "runtimeExecutable": "npx.cmd"
+            },
+            "runtimeArgs": [
+                "fiori",
+                "run"
+            ],
+            "args": [
+                "--config",
+                "./ui5-mock.yaml",
+                "--open",
+                "test/flpSandbox.html#brcomsinosbytezui5rota-display"
+            ],
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart",
+            "outputCapture": "std",
+            "env": {
+                "FIORI_TOOLS_URL_PARAMS": "sap-client=250&sap-ui-xx-viewCache=false"
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "fileName": "id_1729536591425_2_propertyChange",
+    "fileType": "change",
+    "changeType": "propertyChange",
+    "moduleName": "",
+    "reference": "br.com.sinosbyte.zui5.locais",
+    "packageName": "",
+    "content": {
+        "property": "liveMode",
+        "newValue": true
+    },
+    "selector": {
+        "id": "br.com.sinosbyte.zui5.locais::sap.suite.ui.generic.template.ListReport.view.ListReport::Locais--listReportFilter",
+        "idIsLocal": false,
+        "type": "sap.ui.comp.smartfilterbar.SmartFilterBar"
+    },
+    "layer": "CUSTOMER_BASE",
+    "texts": {},
+    "namespace": "apps/br.com.sinosbyte.zui5.locais/changes/",
+    "projectId": "",
+    "creation": 1729536591425,
+    "originalLanguage": "",
+    "support": {
+        "generator": "changeUtils: SAPFioriTools",
+        "service": "",
+        "user": "",
+        "sapui5Version": "1.114.0",
+        "sourceChangeFileName": "",
+        "compositeCommand": ""
+    },
+    "oDataInformation": {},
+    "dependentSelector": {},
+    "validAppVersions": {
+        "from": "0.0.1",
+        "to": "0.0.1",
+        "creation": "0.0.1"
+    },
+    "jsOnly": false,
+    "variantReference": "",
+    "appDescriptorChange": false
+}

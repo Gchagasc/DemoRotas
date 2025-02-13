@@ -1,0 +1,9 @@
+<mvc:View controllerName="br.com.sinosbyte.zui5.mainapp.controller.Visitas"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true" 
+    xmlns="sap.m" xmlns:core="sap.ui.core">
+    <Page>
+        <content>
+            <core:ComponentContainer height="100%" name="visitas"/>
+        </content>
+    </Page>
+</mvc:View>
